@@ -1,0 +1,8 @@
+ERROR : Failed to initialize connection using connectivity add-in v12.2 : Please check the configuration options [url, username, password, doman, project] for any mistakes and try again
+ERROR : If your settings are correct but this problem persists. Please visit the 'Add-Ins Page' in your main QC/ALM server page and install the 'HP Quality Center Connectivity Add-in' found there.
+ERROR : If your server is a HP Quality Center v10.0 installation, simply visiting the login page may resolve this issue as it installs the connectivity add-in
+ERROR : com.jacob.com.ComFailException: Invoke of: Login
+Source: 
+Description: Failed to login. Please contact system administrator for help.
+Description: Authentication failed. Verify your user name and password
+
