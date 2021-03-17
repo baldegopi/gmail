@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.conformiq.creator.base:5.1.0.82833"/>
+		<item value="com.conformiq.cta.base:5.1.0.82833"/>
+	</list>
+</section>

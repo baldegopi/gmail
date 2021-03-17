@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="728" width="1024" x="130" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="285"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="com.conformiq.qtronic.client.MainToolbar" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.conformiq.designer.activity.diagram.ElementCreation" itemType="typeToolBarContribution" x="453" y="22"/>
+<coolItem id="com.conformiq.designer.structure.diagram.ElementCreation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.conformiq.designer.AD.diagram.part.ConformiqActivityChartDiagramEditorID" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1614842314405" focus="true" label="Workspace - Conformiq Modeling">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="300" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
+<view id="com.conformiq.qtronic.client.TestDependencyView" partName="Test Case Dependency Matrix"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="com.conformiq.qtronic.client.marker_grouping" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="100" org.eclipse.ui.ide.resourceField="100" org.eclipse.ui.ide.severityAndDescriptionField="400"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+</viewState>
+</view>
+<view id="com.conformiq.qtronic.client.ProgressPanelView" partName="Progress Panel"/>
+<view id="com.conformiq.qtronic.client.TestCaseStepsView" partName="Test Case Steps"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="com.conformiq.designer.activity.ui.ActionsView" partName="Actions">
+<viewState/>
+</view>
+<view id="com.conformiq.qtronic.client.ModelDefectsView" partName="Model Defects"/>
+<view id="com.conformiq.qtronic.client.ModelBrowserView" partName="Model Browser"/>
+<view id="com.conformiq.qtronic.client.TestCaseListView2" partName="Test Cases"/>
+<view id="com.conformiq.qtronic.client.RequirementManagementView" partName="Requirements">
+<viewState/>
+</view>
+<view id="com.conformiq.qtronic.client.TestTargetsView" partName="Test Targets"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="1" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.pde.runtime.LogView" activePerspective="com.conformiq.qtronic.client.modelingperspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="com.conformiq.qtronic.client.plugin.TestReviewPerspective" id="com.conformiq.qtronic.client.testreviewperspective" label="Conformiq Test Review"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="com.conformiq.qtronic.client.TestCaseListView2"/>
+<show_view_action id="com.conformiq.qtronic.client.TestCaseStepsView"/>
+<show_view_action id="com.conformiq.qtronic.client.ModelDefectsView"/>
+<show_view_action id="com.conformiq.qtronic.client.TestTargetsView"/>
+<show_view_action id="com.conformiq.qtronic.client.ModelBrowserView"/>
+<show_view_action id="com.conformiq.qtronic.client.TestDependencyView"/>
+<new_wizard_action id="com.conformiq.qtronic.client.AdvancedNewProjectWizard"/>
+<new_wizard_action id="com.conformiq.qtronic.client.newDCWizard"/>
+<new_wizard_action id="com.conformiq.qtronic.client.newSBEWizard"/>
+<new_wizard_action/>
+<perspective_action id="com.conformiq.qtronic.client.modelingperspective"/>
+<perspective_action id="com.conformiq.qtronic.client.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.previous"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.next"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.backwardHistory"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.forwardHistory"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.conformiq.qtronic.client.TestCaseListView2"/>
+<view id="com.conformiq.qtronic.client.ModelDefectsView"/>
+<view id="com.conformiq.qtronic.client.ModelBrowserView"/>
+<view id="com.conformiq.qtronic.client.TestDependencyView"/>
+<view id="com.conformiq.qtronic.client.TestCaseStepsView"/>
+<view id="com.conformiq.qtronic.client.TestTargetsView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="TestCases">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.conformiq.qtronic.client.TestCaseListView2" label="Test Cases"/>
+<page content="com.conformiq.qtronic.client.ModelDefectsView" label="Model Defects"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="TestCases">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3" ratioLeft="300" ratioRight="700" relationship="2" relative="TestCases"/>
+<info folder="true" part="ModelBrowser" ratio="0.5" ratioLeft="350" ratioRight="350" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.conformiq.qtronic.client.ModelBrowserView" label="Model Browser"/>
+<page content="com.conformiq.qtronic.client.TestDependencyView" label="Test Case Dependency Matrix"/>
+</folder>
+</info>
+<info folder="true" part="TestCaseStepsAndTestTargets" ratio="0.5" ratioLeft="294" ratioRight="294" relationship="4" relative="ModelBrowser">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.conformiq.qtronic.client.TestCaseStepsView" label="Test Case Steps"/>
+<page content="com.conformiq.qtronic.client.TestTargetsView" label="Test Targets"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="com.conformiq.qtronic.client.plugin.Perspective2" id="com.conformiq.qtronic.client.perspective" label="Conformiq Test Design"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.conformiq.qtronic.client.TestTargetsView"/>
+<show_view_action id="com.conformiq.qtronic.client.ProgressPanelView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.conformiq.qtronic.client.TestCaseListView2"/>
+<show_view_action id="com.conformiq.qtronic.client.ModelDefectsView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="com.conformiq.qtronic.client.AdvancedNewProjectWizard"/>
+<new_wizard_action id="com.conformiq.qtronic.client.newDCWizard"/>
+<new_wizard_action id="com.conformiq.qtronic.client.newSBEWizard"/>
+<new_wizard_action/>
+<perspective_action id="com.conformiq.qtronic.client.modelingperspective"/>
+<perspective_action id="com.conformiq.qtronic.client.testreviewperspective"/>
+<hide_menu_item_id id="org.eclipse.ui.run"/>
+<hide_menu_item_id id="org.eclipse.search.menu"/>
+<hide_menu_item_id id="com.conformiq.qtronic.client.Menu"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.previous"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.next"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.backwardHistory"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.forwardHistory"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.conformiq.qtronic.client.ProgressPanelView"/>
+<view id="com.conformiq.qtronic.client.TestCaseListView2"/>
+<view id="com.conformiq.qtronic.client.ModelDefectsView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="com.conformiq.qtronic.client.TestTargetsView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="ProjectExplorer">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="ProjectExplorer">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="ProgressPanel" ratio="0.65" ratioLeft="650" ratioRight="350" relationship="2" relative="ProjectExplorer">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.conformiq.qtronic.client.ProgressPanelView" label="Progress Panel"/>
+</folder>
+</info>
+<info folder="true" part="TestCases" ratio="0.5986394" ratioLeft="352" ratioRight="236" relationship="4" relative="ProgressPanel">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.conformiq.qtronic.client.TestCaseListView2" label="Test Cases"/>
+<page content="com.conformiq.qtronic.client.ModelDefectsView" label="Model Defects"/>
+</folder>
+</info>
+<info folder="true" part="Problems" ratio="0.75" ratioLeft="441" ratioRight="147" relationship="4" relative="ProjectExplorer">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.23076923" ratioLeft="150" ratioRight="500" relationship="2" relative="ProjectExplorer"/>
+<info folder="true" part="TestTargets" ratio="0.4988662" ratioLeft="220" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.conformiq.qtronic.client.TestTargetsView" label="Test Targets"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.conformiq.qtronic.client.plugin.ModelingPerspective" id="com.conformiq.qtronic.client.modelingperspective" label="Conformiq Modeling"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.conformiq.qtronic.client.RequirementManagementView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="com.conformiq.designer.activity.ui.ActionsView"/>
+<new_wizard_action id="com.conformiq.qtronic.client.AdvancedNewProjectWizard"/>
+<new_wizard_action id="com.conformiq.qtronic.client.newDCWizard"/>
+<new_wizard_action id="com.conformiq.qtronic.client.newSBEWizard"/>
+<new_wizard_action/>
+<perspective_action id="com.conformiq.qtronic.client.perspective"/>
+<perspective_action id="com.conformiq.qtronic.client.testreviewperspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.next"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.forwardHistory"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.previous"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.navigate.backwardHistory"/>
+<view id="com.conformiq.qtronic.client.RequirementManagementView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="com.conformiq.designer.activity.ui.ActionsView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="ProjectExplorer">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="ProjectExplorer">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="RequirementsProblemsActions" ratio="0.75" ratioLeft="441" ratioRight="147" relationship="4" relative="ProjectExplorer">
+<folder activePageID="com.conformiq.qtronic.client.RequirementManagementView" appearance="2" expanded="2">
+<page content="com.conformiq.qtronic.client.RequirementManagementView" label="Requirements"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="com.conformiq.designer.activity.ui.ActionsView" label="Actions"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="Properties" ratio="0.5" ratioLeft="500" ratioRight="500" relationship="2" relative="RequirementsProblemsActions">
+<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.15" ratioLeft="150" ratioRight="850" relationship="2" relative="ProjectExplorer"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.conformiq.designer.AD.diagram.part.ConformiqActivityChartDiagramEditorID" name="Activity Diagram.ad" tooltip="C:\Users\IB2k21003\workspace\parabank\.stable-model\model\Activity Diagram.ad">
+<persistable uri="file:/C:/Users/IB2k21003/workspace/parabank/.stable-model/model/Activity%20Diagram.ad"/>
+</file>
+</mruList>
+</workbench>
