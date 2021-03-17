@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ad="http://www.conformiq.com/emf/15/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <ad:ActivityDiagram xmi:id="_ZuV5sIcVEeuMBO0SNBTtag" type="qml78271aa9f6bb4f3d925febb72483c7b5"/>
+  <notation:Diagram xmi:id="_ZuXu4IcVEeuMBO0SNBTtag" type="ConformiqActivityChart" element="_ZuV5sIcVEeuMBO0SNBTtag" name="logg.ad" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ZuXu4YcVEeuMBO0SNBTtag"/>
+  </notation:Diagram>
+</xmi:XMI>
