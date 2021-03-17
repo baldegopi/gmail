@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project id="06f01e167c994bc1a8ebdadc794f0088" name="bpt" dbversion="2">
+  <autoconfig>
+    <automationtype id="7716453906624b4cab61978f605f5ca7" name="Selenium" content="Object, Locator Type, Action, Value, Run, Verdict" />
+    <automationtype id="bae9a4d6957e4e59bf2246e0136fc96a" name="QTP" content="Object, Action, Value, Run, Verdict" />
+  </autoconfig>
+  <requirements />
+  <keywords>
+    <keyword id="ddcbe75b9f8d4ad493767c10e2bcd7bf" name="http://nopcommerce.testplant.com/" type="Automatic">
+      <parameters />
+      <description>
+        <step id="03ad777fcf62426ca3b23def12fc00e2" seqno="1">
+          <action>http://nopcommerce.testplant.com/</action>
+          <observation>Application displays Logg screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="f31f58239bb24b8d97f4b09dddbf701b" name="Click Login hyperlink in the LogIn screen" type="Automatic">
+      <parameters />
+      <description>
+        <step id="ccfa0c047a784e5aa191f7b8ec1e63c0" seqno="1">
+          <action>Click Login hyperlink in the LogIn screen</action>
+          <observation>Application displays LogIn screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="953b7f4c3f0b4421900f9416b0357c24" name="Fill LogIn form in LogIn screen     entering  in Email textbox     entering  in" type="Automatic">
+      <parameters>
+        <parameter id="668b392a2cac42e2a37e45f4019c90b7" name="parameter 1" type="String" direction="Input" default="" />
+        <parameter id="4282ad64b1fd4d8d943db4f2d2a685a9" name="parameter 2" type="String" direction="Input" default="" />
+      </parameters>
+      <description>
+        <step id="e93c00a13e9c45968e29982123e3ad01" seqno="1">
+          <action>Fill LogIn form in LogIn screen     entering "$parameter 1$" in Email textbox     entering "$parameter 2$" in Password textbox</action>
+          <observation>No errors can be observed at the SUT</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="75a50515dfe248ff8f7a1104e181d20d" name="Click LOG IN button in the LogIn screen" type="Automatic">
+      <parameters />
+      <description>
+        <step id="4b53968a3b824917b64200511079ab86" seqno="1">
+          <action>Click LOG IN button in the LogIn screen</action>
+          <observation>Application displays LogIn screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="10a8e3db5f53445a8395ba63b5db9295" name="Click LOG IN button in the LogIn screen 1" type="Automatic">
+      <parameters />
+      <description>
+        <step id="6791bf6b487341a7a151e402baf18880" seqno="1">
+          <action>Click LOG IN button in the LogIn screen</action>
+          <observation>Application displays Home screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="1f5a12f2abb44c6c8e3b364c6c45494b" name="Click Shopping Cart hyperlink in the Home screen" type="Automatic">
+      <parameters />
+      <description>
+        <step id="5cabee0a93b5429d90507657c34ad58a" seqno="1">
+          <action>Click Shopping Cart hyperlink in the Home screen</action>
+          <observation>Application displays Shopping Cart screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="50d1428f23bc48d2b9988ad4b27e2b76" name="Fill Shopping Cart form in Shopping Cart screen" type="Automatic">
+      <parameters />
+      <description>
+        <step id="3e5d5c6a21a54ca6813538dc29aae8a7" seqno="1">
+          <action>Fill Shopping Cart form in Shopping Cart screen</action>
+          <observation>No errors can be observed at the SUT</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+    <keyword id="36b1f1cc48574f39a16bee8fcd72460f" name="Click SEARCH button in the Shopping Cart screen" type="Automatic">
+      <parameters />
+      <description>
+        <step id="2142d7ecceee4db390adf17d55fa81bd" seqno="1">
+          <action>Click SEARCH button in the Shopping Cart screen</action>
+          <observation>Application displays LogIn screen</observation>
+        </step>
+      </description>
+      <automation />
+    </keyword>
+  </keywords>
+  <testsuites>
+    <testsuite id="aa17bc0575964d6eb5d561cc3abe53a6" name="Current Tests">
+      <description id="b43d7c093f6b43e8bf8f84fdc9c05747">Current Tests</description>
+      <test id="82c149a270ec4db7a8fbfeeba0ed5062" name="INVALIDLOGIN_TC [2]">
+        <description id="af0e928e56834361a733067ba14ba931">INVALIDLOGIN_TC [2]</description>
+        <teststep id="2cdb44359abb4e0cbfc55428d0435c8a" type="keyword" targetid="ddcbe75b9f8d4ad493767c10e2bcd7bf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="6ccb9c4d78654f7abde8fd2bec394359" type="keyword" targetid="f31f58239bb24b8d97f4b09dddbf701b" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="ccff0e5de41147b49c4f982108bdf354" type="keyword" targetid="953b7f4c3f0b4421900f9416b0357c24" source=" ">
+          <arguments>
+            <argument id="65304a013bf4414db4c9038797d5a37f" parameterid="668b392a2cac42e2a37e45f4019c90b7" value="gopirishi@gmail.com" />
+            <argument id="43a0e2deed1b45a483862e275c982afa" parameterid="4282ad64b1fd4d8d943db4f2d2a685a9" value="varshi@12" />
+          </arguments>
+        </teststep>
+        <teststep id="acddbef418ac438cb84c7e618de25f28" type="keyword" targetid="75a50515dfe248ff8f7a1104e181d20d" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="3f5d4717476d46a3a88466f8706e28c5" name="INVALIDLOGIN_TC">
+        <description id="ef14ba15cfa64260b8e9150433c5cf67">INVALIDLOGIN_TC</description>
+        <teststep id="ce0d1f4524814ce39ae290e0cf48eeac" type="keyword" targetid="ddcbe75b9f8d4ad493767c10e2bcd7bf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="979f22215b7d4933964d5cfbc9881ffb" type="keyword" targetid="f31f58239bb24b8d97f4b09dddbf701b" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="ca87f1087d9f4661982ec8ecd08a1d25" type="keyword" targetid="953b7f4c3f0b4421900f9416b0357c24" source=" ">
+          <arguments>
+            <argument id="54ff2b1555934569a8d4f66bab7feeb5" parameterid="668b392a2cac42e2a37e45f4019c90b7" value="balde@gmail.com" />
+            <argument id="9445fd97900940878dc40965ce562c56" parameterid="4282ad64b1fd4d8d943db4f2d2a685a9" value="Jntu@812" />
+          </arguments>
+        </teststep>
+        <teststep id="c865e1cf1cce4c679dedd7b54a3be16e" type="keyword" targetid="75a50515dfe248ff8f7a1104e181d20d" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+      <test id="ff31d34e9fc141d7953085e57638ab31" name="LOGOUT_TC">
+        <description id="876db19339fa4466b7821960c4746212">LOGOUT_TC</description>
+        <teststep id="1269e581bfcc4000be8bacbd2a8ae646" type="keyword" targetid="ddcbe75b9f8d4ad493767c10e2bcd7bf" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f286ae750b464ffb8a922444e4b04d32" type="keyword" targetid="f31f58239bb24b8d97f4b09dddbf701b" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="f281e0abb6394d52a16dec41a1c01a22" type="keyword" targetid="953b7f4c3f0b4421900f9416b0357c24" source=" ">
+          <arguments>
+            <argument id="eb78f42267a04156b15a9d812ff43649" parameterid="668b392a2cac42e2a37e45f4019c90b7" value="gopirishi@gmail.com" />
+            <argument id="c1421e9e47bd43bba73ea709be51c8b2" parameterid="4282ad64b1fd4d8d943db4f2d2a685a9" value="Jntu@812" />
+          </arguments>
+        </teststep>
+        <teststep id="75d89bfa65de45819b856c077598c98b" type="keyword" targetid="10a8e3db5f53445a8395ba63b5db9295" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="e67499f4d49b4acd92b30a38c9716c06" type="keyword" targetid="1f5a12f2abb44c6c8e3b364c6c45494b" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="7d1b04149e4347f0bebff7fec9745cab" type="keyword" targetid="50d1428f23bc48d2b9988ad4b27e2b76" source=" ">
+          <arguments />
+        </teststep>
+        <teststep id="71d7616250804ec5bd5fe729e084d220" type="keyword" targetid="36b1f1cc48574f39a16bee8fcd72460f" source=" ">
+          <arguments />
+        </teststep>
+      </test>
+    </testsuite>
+  </testsuites>
+</project>

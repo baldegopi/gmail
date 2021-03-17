@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.conformiq:ConformiqProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq="http://www.conformiq.com/models/3/project" propertiesVersion="1001">
+  <designConfigurations name="DC" id="53dcdc4ba4f7b908460a543498610abf">
+    <scripterConfigurations jarPath="Conformiq_Designer/SeleniumScripter.jar" pluginName="SeleniumScripter" enabled="true">
+      <scripterPropertyCategories name="Output">
+        <categoryProperties key="Path" value="Selenium XLS"/>
+        <categoryProperties key="Generate test harness files" value="true"/>
+        <categoryProperties key="Overwrite test harness files" value="false"/>
+        <categoryProperties key="create test harness backup" value="false"/>
+        <categoryProperties key="Generate test step logging" value="true"/>
+        <categoryProperties key="Generate requirements logging" value="true"/>
+      </scripterPropertyCategories>
+      <scripterPropertyCategories name="Template">
+        <categoryProperties key="Path" value="Selenium/template"/>
+      </scripterPropertyCategories>
+    </scripterConfigurations>
+  </designConfigurations>
+  <projectProperties key="CreatorDataDistribution" value="false"/>
+  <projectProperties key="IntelligentTestCaseNaming" value="true"/>
+  <projectProperties key="LookAheadDepth" value="0"/>
+  <projectProperties key="MainActivityDiagram" value="model/login.ad"/>
+  <projectProperties key="OnlyFinalizedRuns" value="false"/>
+  <projectProperties key="TestCaseIndexOffset" value="0"/>
+  <projectProperties key="TestCaseNamePrefix" value="Test Case "/>
+  <projectProperties key="TestCaseOrdering" value="CHRONOLOGICAL_SHORTEST_TEST_FIRST"/>
+  <projectProperties key="TestGenTimeLimit" value="10"/>
+  <projectProperties key="TestGenerationStopCondition" value="REPEATABLE_TEST_SET"/>
+  <projectProperties key="TestSelection" value="FEWEST_TESTS"/>
+  <requirementProviders xmi:id="_byIz4IcJEeuyqYjyoR2R5A" identifier="com.conformiq.designer.extensions.alm" name="HP QC/ALM Requirements (Alexis:Requirements\Parabank Requirements)">
+    <properties key="alm.api.key.secret" value="$CQPasswordEncoding4$fN4D4b1iD9aAGH5tpTXrYA=="/>
+    <properties key="alm.client.id"/>
+    <properties key="alm.domain" value="DEFAULT"/>
+    <properties key="alm.location" value="https://qc-122.conformiq.com/qcbin/"/>
+    <properties key="alm.password" value="$CQPasswordEncoding4$07AjNkQB5uipDV3RSVDEX6fwd9OlOI+ghNWRDCcJdXJqOnHVjTPo2Q7WLBza7qkVfCIabP7+7iGhku5lZfKNCw=="/>
+    <properties key="alm.project" value="Alexis"/>
+    <properties key="alm.requirement.fields" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAB3CAAAABAAAAAAeA=="/>
+    <properties key="alm.requirement.folder" value="rO0ABXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAACdwQAAAACdAAMUmVxdWlyZW1lbnRzdAAVUGFyYWJhbmsgUmVxdWlyZW1lbnRzeA=="/>
+    <properties key="alm.requirement.namingtemplate" value="${fields[&quot;Name&quot;]}"/>
+    <properties key="alm.username" value="siteadmin"/>
+    <properties key="aml.requirement.priorities" value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAB3CAAAABAAAAAAeA=="/>
+  </requirementProviders>
+</com.conformiq:ConformiqProject>

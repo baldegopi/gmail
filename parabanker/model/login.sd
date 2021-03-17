@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/15/StructureDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_2CuiQHsVEeuBCLpeJ0Bs7g" type="Dsl" name="login.sd" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_D0zJ4IGLEeudK5-cFbeblQ" type="2003">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D0zJ5oGLEeudK5-cFbeblQ" type="5037"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_D0zJ54GLEeudK5-cFbeblQ" type="7003"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_D0zJ4YGLEeudK5-cFbeblQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_D0zJ4oGLEeudK5-cFbeblQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_D0zJ44GLEeudK5-cFbeblQ"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_D0zJ5IGLEeudK5-cFbeblQ"/>
+    <element xmi:type="com.conformiq.creator.structure.dsl:Screen" href="login.sl#qml18afccc1e3c949948742647a4b271b7d"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D0zJ5YGLEeudK5-cFbeblQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_2CuiQXsVEeuBCLpeJ0Bs7g"/>
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="login.sl#/"/>
+</notation:Diagram>

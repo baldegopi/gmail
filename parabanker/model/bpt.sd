@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:com.conformiq.creator.structure.dsl="http://www.conformiq.com/emf/15/StructureDiagram" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" xmi:id="_7068ad6e-e7a0-4138-92d2-912af17c7d6f" type="Dsl" name="bpt.sd" measurementUnit="Pixel">
+  <element xmi:type="com.conformiq.creator.structure.dsl:Model" href="bpt.sl#/" />
+  <children xmi:type="notation:Shape" xmi:id="_Timeline" type="Note" fontName="Segoe UI" description="This diagram was automatically generated from C:\Users\IB2k21003\Desktop\workgopi\parabanker\modelparabanker.xml on 17/03/2021 15:39:47 by HP ALM Test Plan Importer" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_4adf7b315299481e8d2e3c927d71cf7a" type="DiagramName">
+      <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__afe00ac358234de98cefb4afba59150c" type="Description">
+      <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_c81d887269c64383844ae765172423db" />
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_a5461ef2e77a460693f5373b75712724" />
+    <element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__b9f27e64a01d47ec89c21bc178722604" x="100" y="100" />
+  </children>
+</notation:Diagram>
+

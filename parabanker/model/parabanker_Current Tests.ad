@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ad="http://www.conformiq.com/emf/15/ActivityDiagram" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:version="2.0">
+  <ad:ActivityDiagram xmi:id="_fa670de37cf54a93ae38bf1078c42f9f" type="_1b9a8adca2e64812823ecf7e442eabc2">
+    <controlFlows xmi:type="ad:CaseControlFlow" xmi:id="_13c3f027246c4f16a28b15e38e2e4c22" to="_d7f8bffbdadd4c4fb5a2c6ce46a99355" from="_1c5435550db34c2a8178513e0714c493">
+      <case xmi:type="ad:Expression" xmi:id="_717fbd9ae667487685f4e22fd519491c">
+        <clause xmi:type="ad:StringLiteralClause" xmi:id="_a060a7747f5741fa91f9a79c73b76c52" value="screen" />
+      </case>
+    </controlFlows>
+    <controlFlows xmi:type="ad:ElseControlFlow" xmi:id="_9d25aa90582a48cb9df2d16150630b1b" to="_9cc0b3ba376e480ba49a6cd3d65c0fbd" from="_1c5435550db34c2a8178513e0714c493" />
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_68c024486c7743b2bce5ed2718d054ce" to="_7c54aef6139541a68f2361c4876aa915" from="_d7f8bffbdadd4c4fb5a2c6ce46a99355" />
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_a557caf976ad4b41a16958f4e53e6ac2" to="_79e4489b8b3d45cd90699466d2c3480a" from="_71b56d3e06944d63a063993559f1a164" />
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_c6bf1ce5cab24391b9a7e5e1dedf6cef" to="_91f85a6e54db40039c456d4512ab606f" from="_79e4489b8b3d45cd90699466d2c3480a" />
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_ac18805b44dc4d93a7c34727c9428d39" to="_a48cb2518c2844ada896a0b7a91bb0ae" from="_59d916ab50f24248a41136b2fa2b91ad" />
+    <controlFlows xmi:type="ad:NormalControlFlow" xmi:id="_03d74df5b54047dd85f53aa2325dfcc2" to="_1c5435550db34c2a8178513e0714c493" from="_91f85a6e54db40039c456d4512ab606f" />
+    <controlFlows xmi:type="ad:CaseControlFlow" xmi:id="_87d123c75cd04d1c97e8a31883715434" to="_59d916ab50f24248a41136b2fa2b91ad" from="_1c5435550db34c2a8178513e0714c493">
+      <case xmi:type="ad:Expression" xmi:id="_8b751ea2d88f4e0ebf90edecc500b49e">
+        <clause xmi:type="ad:StringLiteralClause" xmi:id="_549bada2a4694a1f93f3f18ef6032dc2" value="1" />
+      </case>
+    </controlFlows>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_59d916ab50f24248a41136b2fa2b91ad" name="Click LOG IN button in the LogIn screen 1" controlFlowsOut="_ac18805b44dc4d93a7c34727c9428d39" controlFlowsIn=" _87d123c75cd04d1c97e8a31883715434">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_5e6b06408e3c46bbb24e3f98a511ffed" methodRef="qml_012a1d8b300243819a92bc5efc92ad9f_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_5ee00281f3a74563ab12d2582c05ce08">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_75a333d6e95840cfa41e87fdb3733e91" value="Click LOG IN button in the LogIn screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_9b7094c18317439abb22679486312d4c">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_27eebab34dfa4a2d87d18a5c7978540b" methodRef="qml_012a1d8b300243819a92bc5efc92ad9f_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_ef0d9b29b7994f8e92a20a9a24125211" methodRef="qml_3005143e13db4e67a0d3e3db08c9aa3f_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_616e42b07335419ebcf999a4efd9cdb7">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_218d8cf340aa48aaa2af9bc462958dad" value="Verify Application displays Home screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_0b00859aefb84ff0b7ba7a91752cdf20">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_6f288627f2734154baff042ebf59d8c8" methodRef="qml_3005143e13db4e67a0d3e3db08c9aa3f_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_abf9ce73029b44c485caf16044ec7e45" methodRef="qml_81e9a00818334364bb5997f4d7e2f242_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_b386d81ea01d46d7aa63bb5d7fd2678f">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_530c97b91f904ffdaaef95ade71a27e8" value="Click Shopping Cart hyperlink in the Home screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_9096411d1da144c6a8a9799cab4aba79">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_88ba7c31fd3c4537b35a2cb62eebe77c" methodRef="qml_81e9a00818334364bb5997f4d7e2f242_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_ea5eeeb4925d41b19122e7aa2d0b8011" methodRef="qml_e3fdcb388abe488093083ec7c34a8ea3_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_9bb5845d4e5b4687b68ea7847ead1a53">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_d812776e164b48e69b6afb2b9552edb7" value="Verify Application displays Shopping Cart screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_e16e042923e24450bf564693db9fc419">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_f8a4b2f720e2469cbfc471df19933601" methodRef="qml_e3fdcb388abe488093083ec7c34a8ea3_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_4acb27a01a184513ba0fe6bf55e548fb" methodRef="qml_8d1361a1053f4e9ca154a3627978b287_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_2553f9b8abf844c48297ccd81900a224">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_ca55673f5cce4948826ac76590837f9f" value="Fill Shopping Cart form in Shopping Cart screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_7689530d99034df78344d96288d212e1">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_ee29f571d7854960a6e88568d2ce4691" methodRef="qml_8d1361a1053f4e9ca154a3627978b287_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_5209b7ad8afb4a769480b5bbe63f56e0" methodRef="qml_ec5f59a921eb4ddfbf1100c970f88626_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_ff6a53d49e4c40b08137b1267cf3d38f">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_c6819868e4004c94902ca8c0610b5664" value="Verify No errors can be observed at the SUT" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_ce56fa8729c6454586f9e09e1701c3a9">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_ad863bc20bdd4b67bdd99683e95c4de6" methodRef="qml_ec5f59a921eb4ddfbf1100c970f88626_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_61ed91b026294342af77ada9c6610a39" methodRef="qml_8586f778190f46528d67d71dd2de5efe_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_dd22fac6904e4d1d97c171b0fb5dd9c7">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_f55acf1032d141c194172bc02b7d83a3" value="Click SEARCH button in the Shopping Cart screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_59ce880dca7945eaad985f3490c85cae">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_d3b19a0c89794e16aeb0ffb3de9be3c8" methodRef="qml_8586f778190f46528d67d71dd2de5efe_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_ebaa30f745d1457d91c6337652067eeb" methodRef="qml_bd8e626e64734728b3d5b11953bd6795_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_f229c027701b4282a9ae27a4f7a4ada8">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_15891c93bf3b42dcab25326f9191bd2a" value="Verify Application displays LogIn screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_b9bbd513057540d0aa15b085c951db51">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_8d82a5bc5ccc452ba53ec17ef05b4690" methodRef="qml_bd8e626e64734728b3d5b11953bd6795_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+    </nodes>
+    <nodes xmi:type="ad:FinalNode" xmi:id="_7c54aef6139541a68f2361c4876aa915" name="Return Node 1" controlFlowsIn=" _68c024486c7743b2bce5ed2718d054ce" />
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_91f85a6e54db40039c456d4512ab606f" name="http://nopcommerce.testplant.com/" controlFlowsOut="_03d74df5b54047dd85f53aa2325dfcc2" controlFlowsIn=" _c6bf1ce5cab24391b9a7e5e1dedf6cef">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_33c35a38262d4c10b7ac65bd4e2b3186" methodRef="qml_4d46671b8fd442b89869ba600bbca010_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_51c33e2c6e174c9c8693acbea8baef9a">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_3121855492154a9a8abefb4ff36b6ef4" value="http://nopcommerce.testplant.com/" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_680c02c94d744ab29e5887964f101466">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_b5ff3397b70a408ea0bd509bcbd5b8d7" methodRef="qml_4d46671b8fd442b89869ba600bbca010_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_18bced945351473cadc02b81f6ebfb0d" methodRef="qml_a23f2c24bcf8489ba1fb55f4566ec0b4_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_e0c2c7e9bc8b4991a38462b8b383c50c">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_0b7df4e49cc8455aaa9b01c29b4e17f0" value="Verify Application displays Logg screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_5ba72dd02d0840ee849c539d373d1295">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_ea7a98b2f94146219d47a46f66021821" methodRef="qml_a23f2c24bcf8489ba1fb55f4566ec0b4_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_b67b3579a1ae47e8b5a4259880a41143" methodRef="qml_8db7ce133a444a678a6d8242530fcb0d_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_b464bdbfbcd443e38774ecf9020e44bd">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_95146881ef9c4a16b8bf93b6880b59f9" value="Click Login hyperlink in the LogIn screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_ca879c874af74e7b8cdc27b0e48979bc">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_c9b61da01ce543bfadde2de89d03b6fa" methodRef="qml_8db7ce133a444a678a6d8242530fcb0d_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_ed870a15bb564ce8af2a1bd789f01e7c" methodRef="qml_bd8e626e64734728b3d5b11953bd6795_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_e693395ab210427ab084e0270d8179fd">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_01ff9805e31d4ca8ae47698dc24a763f" value="Verify Application displays LogIn screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_15baaafd08d943d58e79ef0e7db7a45f">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_47328355c15b40148781445db5b5c850" methodRef="qml_bd8e626e64734728b3d5b11953bd6795_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_1541bda438d8489ba597b62a44848636" methodRef="qml_511c7ce9b52a4849bf4eba16eb286a59_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_de666117ccb343a1b93cc165c88584cf">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_017fa29cee894183a3fbc784a1aa0a3a" value="Fill LogIn form in LogIn screen entering in Email textbox entering in Password" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_4d016e4fb55845c4945aa2825873376d">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_2c49486c72584027970af8b00aa259f6" qmlId="qml_6ed78ee87396494e8ece63b12f8e2100" valueKind="List">
+            <possibleValues xmi:type="ad:Expression" xmi:id="_a58ab68ae0f34325a1aa95003ab4592a">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="_fc87f31973f14ff095cc4a1cf54e4061" name="item" qmlId="qml_23d9d45382c9453296a299ebda64ecf1">
+                <fields xmi:type="ad:ValueField" xmi:id="_04101ed509c64f92b060eff3ef52dd09" fieldRef="qml__1a1fa2219b314c7e9d942856110a8876__511c7ce9b52a4849bf4eba16eb286a59">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_22efc3b3e1ed460c9de9b238cd9707cd">
+                    <clause xmi:id="_283b1aba0ba54e8db56a33a483ef9577" xmi:type="ad:StringLiteralClause" value="gopirishi@gmail.com" />
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="_b2d00987ca97449e85052fce625eb532" fieldRef="qml__423a1eb410bb461a9f96e4ed0e2368d8__511c7ce9b52a4849bf4eba16eb286a59">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_cc8bdaf5481e4f5d9301e5bb1aa56071">
+                    <clause xmi:id="_30fdf5579cd5427f9b9b1fc64e98d3f6" xmi:type="ad:StringLiteralClause" value="varshi@12" />
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="_d6956e079fd94097818472feb9bd68ce" idRef="qml_511c7ce9b52a4849bf4eba16eb286a59" />
+              </clause>
+            </possibleValues>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_824d7c7d62b94524b07c19329f920d3e" idRef="qml_511c7ce9b52a4849bf4eba16eb286a59" />
+          </clause>
+        </inputArgs>
+        <preCondition xmi:type="ad:PreCondition" xmi:id="_40fae5d2b87f4563a3ef24aa70c571ff" preConditionType="Skip">
+          <condition xmi:type="ad:Expression" xmi:id="_aea8f3f866ca44f29b5b65157ac419e4">
+            <clause xmi:type="ad:FunctionCallClause" xmi:id="_6a9fb8b7e10945b2a45a7d70f9e8cfa4" methodRef="equals">
+              <inputArgs xmi:type="ad:Expression" xmi:id="_4106129a87524ddf89b6d6215e563a5c">
+                <clause xmi:type="ad:DataObjectAccessClause" xmi:id="_3e866dd396a24b1fba723ed0b743582e" objectRef="qml_2cb0311f21e54721a2b2be63c2f428e2" />
+              </inputArgs>
+              <inputArgs xmi:type="ad:Expression" xmi:id="_8b8f03dc7fd54a34865c89fd07214df1">
+                <clause xmi:type="ad:InlineValueClause" xmi:id="_beadd8f03b56492fbd683baeafbf58cc" qmlId="qml_d798c592f5b04f0786dfdf8562c80342" valueKind="List">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_166ba1005b66494e963c2c9dd6313333">
+                    <clause xmi:type="ad:InlineValueClause" xmi:id="_8485f0a8f11041b09a4b8d1a969e5f3a" name="Data Combo1" qmlId="qml_7494675a5a3d4d5b95c2368a04a5f074">
+                      <fields xmi:type="ad:ValueField" xmi:id="_a804190a74c24a2d946b2744804903b2" fieldRef="qml_99271d646c4c41edbcbfd21559bdce6c">
+                        <possibleValues xmi:type="ad:Expression" xmi:id="_1b14769d09224f508ed58ef157b4000b">
+                          <clause xmi:type="ad:StringLiteralClause" xmi:id="_8c70e3e31da546d5a17db28dd8e55124" value="screen" />
+                        </possibleValues>
+                      </fields>
+                      <fields xmi:type="ad:ValueField" xmi:id="_a3fd0eadcae04934b323f1f085960059" fieldRef="qml_73be68e8bebf40fa946ac9f4e4283f36">
+                        <possibleValues xmi:type="ad:Expression" xmi:id="_2af9c9b2237d4590b4381df33c750822">
+                          <clause xmi:type="ad:StringLiteralClause" xmi:id="_6953c36556344b11a9f1e20f1eff9831" value="INVALIDLOGIN_TC [2]" />
+                        </possibleValues>
+                      </fields>
+                      <type xmi:type="ad:CustomTypeRef" xmi:id="_4a67c9c6338d4a5db320624f4b437076" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+                    </clause>
+                  </possibleValues>
+                  <type xmi:type="ad:CustomTypeRef" xmi:id="_75d297d5c2424a6ba91cffc5d6107fff" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+                </clause>
+              </inputArgs>
+            </clause>
+          </condition>
+        </preCondition>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_761e6ef33a6640d2af51fb479f8c72b4" methodRef="qml_511c7ce9b52a4849bf4eba16eb286a59_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_629863dbac22439db7290964fabd4226">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_36dd53039c7b4b8c82d8bea1ab896087" value="Fill LogIn form in LogIn screen entering in Email textbox entering in Password" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_a3d3c1ce65fa438b90fe409d2249bf47">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_af098e261933411689d301e22c1d87cc" qmlId="qml_f595404b33714c358f6e501b73fdf9f9" valueKind="List">
+            <possibleValues xmi:type="ad:Expression" xmi:id="_b5ab47f38fc14572987df52b9f703cf3">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="_673f87e0e08d45b5a54b2a1dea8a678f" name="item" qmlId="qml_063cf17cdb5a4531a148e7353ba22cfe">
+                <fields xmi:type="ad:ValueField" xmi:id="_61300b5c50e34f3c876a76aa536b96c5" fieldRef="qml__1a1fa2219b314c7e9d942856110a8876__511c7ce9b52a4849bf4eba16eb286a59">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_85dd30e99c284b8c844d0867d4030a5b">
+                    <clause xmi:id="_f03149cd22814dce9f7a8a368e1bf78e" xmi:type="ad:StringLiteralClause" value="balde@gmail.com" />
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="_edb7cc4125514499a0b021134df13b23" fieldRef="qml__423a1eb410bb461a9f96e4ed0e2368d8__511c7ce9b52a4849bf4eba16eb286a59">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_ea1edfa4f2d64757b05e1e6236eb2f62">
+                    <clause xmi:id="_db0a7757b61b4093aa6e509766441910" xmi:type="ad:StringLiteralClause" value="Jntu@812" />
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="_aa3fe1e6b375461880e9eb9943f98c16" idRef="qml_511c7ce9b52a4849bf4eba16eb286a59" />
+              </clause>
+            </possibleValues>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_f9dcf8c040ac450ba87ea389315a08ff" idRef="qml_511c7ce9b52a4849bf4eba16eb286a59" />
+          </clause>
+        </inputArgs>
+        <preCondition xmi:type="ad:PreCondition" xmi:id="_dd5f16a4fc4048628ee4750b1e612da9" preConditionType="Skip">
+          <condition xmi:type="ad:Expression" xmi:id="_c5ad167ec8f746c59a17c4ca9da9b197">
+            <clause xmi:type="ad:FunctionCallClause" xmi:id="_2b896668a6c5429d92fd23ae14f85f4c" methodRef="equals">
+              <inputArgs xmi:type="ad:Expression" xmi:id="_65f99057a56e41419cc78d8cc4f6710e">
+                <clause xmi:type="ad:DataObjectAccessClause" xmi:id="_3e8389a91e2b4a82877c73baaf7715e2" objectRef="qml_2cb0311f21e54721a2b2be63c2f428e2" />
+              </inputArgs>
+              <inputArgs xmi:type="ad:Expression" xmi:id="_778af3e494574f3894aa29f36d414946">
+                <clause xmi:type="ad:InlineValueClause" xmi:id="_4e2b0ab8c6b746dcba26734d40f1a63c" qmlId="qml_fcf755110c824d6aa33d8c68a9b88956" valueKind="List">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_8414e9bdb92d4e7f955b9c3bb46fcac9">
+                    <clause xmi:type="ad:InlineValueClause" xmi:id="_590c2adbe0fd429e9e22d3a6a072b350" name="Data Combo1" qmlId="qml_c4b8de1fd0eb4e9989f63e2a2b0f8f20">
+                      <fields xmi:type="ad:ValueField" xmi:id="_3225ba25dbe34ce5b965bb58c039b9f1" fieldRef="qml_99271d646c4c41edbcbfd21559bdce6c">
+                        <possibleValues xmi:type="ad:Expression" xmi:id="_a8a7fbb941534349b5bebf96a87bd82a">
+                          <clause xmi:type="ad:StringLiteralClause" xmi:id="_552a8f445f0c4da9913bf832e3245fd8" value="screen" />
+                        </possibleValues>
+                      </fields>
+                      <fields xmi:type="ad:ValueField" xmi:id="_13081ce76a6c4d668b11d8663152b877" fieldRef="qml_73be68e8bebf40fa946ac9f4e4283f36">
+                        <possibleValues xmi:type="ad:Expression" xmi:id="_52f07cf646884cc5b9bf22de50b5b7ec">
+                          <clause xmi:type="ad:StringLiteralClause" xmi:id="_f5ffe21bb0824cc493b61e58699b8ea1" value="INVALIDLOGIN_TC" />
+                        </possibleValues>
+                      </fields>
+                      <type xmi:type="ad:CustomTypeRef" xmi:id="_7a1156198a3f4a2f8d20e4db0ad0f3bc" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+                    </clause>
+                  </possibleValues>
+                  <type xmi:type="ad:CustomTypeRef" xmi:id="_ccc4efd32e994636a5f83c9f9d6943e7" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+                </clause>
+              </inputArgs>
+            </clause>
+          </condition>
+        </preCondition>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_2f9bfded795d40b49407d76f40cebee1" methodRef="qml_511c7ce9b52a4849bf4eba16eb286a59_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_e4eff0891dc94ed1962d43746623e617">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_fe26bf8b0f65471298a8ed9c5eb763cf" value="Fill LogIn form in LogIn screen entering in Email textbox entering in Password" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_4ed09177232040d2894df5afe317cdc3">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_e3fbc09088bb4270a02936fdd8d16a78" qmlId="qml_c08c9d1cf4bb41cfa82a5f8432bca754" valueKind="List">
+            <possibleValues xmi:type="ad:Expression" xmi:id="_c08396a6672442f68bc84e4f2447ecd2">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="_8fd986fe94e14724857cfc666337908d" name="item" qmlId="qml_e06eac5d0d294768bde401db9a1cfa00">
+                <fields xmi:type="ad:ValueField" xmi:id="_ed92c87930fc4ab7b9f044eee6c18f1b" fieldRef="qml__1a1fa2219b314c7e9d942856110a8876__511c7ce9b52a4849bf4eba16eb286a59">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_bfcc3f5d4a3045239ae124de9b6c61f1">
+                    <clause xmi:id="_4ffd4123c24846839c121f92b9ab736b" xmi:type="ad:StringLiteralClause" value="gopirishi@gmail.com" />
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="_3c4c9a59e70643bcb104caf1c9c71922" fieldRef="qml__423a1eb410bb461a9f96e4ed0e2368d8__511c7ce9b52a4849bf4eba16eb286a59">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_26911f2795a646d9925e467fc8a65d11">
+                    <clause xmi:id="_8ba666297c934aaa9c28e03627926852" xmi:type="ad:StringLiteralClause" value="Jntu@812" />
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="_7bf7d47bbec24f6a87e98f2e83979e50" idRef="qml_511c7ce9b52a4849bf4eba16eb286a59" />
+              </clause>
+            </possibleValues>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_23df8910bad64377949c605fc35b1c29" idRef="qml_511c7ce9b52a4849bf4eba16eb286a59" />
+          </clause>
+        </inputArgs>
+        <preCondition xmi:type="ad:PreCondition" xmi:id="_7d556d3aed284c588b64155bc379b66e" preConditionType="Skip">
+          <condition xmi:type="ad:Expression" xmi:id="_7081ca5da20a4149be3bc95c8e745a3f">
+            <clause xmi:type="ad:FunctionCallClause" xmi:id="_fdfa5fed9c6c4e02b5568622fc0d029e" methodRef="equals">
+              <inputArgs xmi:type="ad:Expression" xmi:id="_a19a79f4c85d4e648ffdc05fcf4d274d">
+                <clause xmi:type="ad:DataObjectAccessClause" xmi:id="_3ad352e914b0461089155c5416c4ad6c" objectRef="qml_2cb0311f21e54721a2b2be63c2f428e2" />
+              </inputArgs>
+              <inputArgs xmi:type="ad:Expression" xmi:id="_b059ce367bb241e6bfc81789caa00799">
+                <clause xmi:type="ad:InlineValueClause" xmi:id="_8876b66a1b084fa980edca88915cdfc0" qmlId="qml_acfe97d3d623448983fc8d2b0dda63ab" valueKind="List">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_57d1a74b24614c009eca4cbb9d372c27">
+                    <clause xmi:type="ad:InlineValueClause" xmi:id="_c83076f785a24528b8ce8aa9794b673d" name="Data Combo1" qmlId="qml_780f39fc3ad442ef9cf201c07a02ef69">
+                      <fields xmi:type="ad:ValueField" xmi:id="_c306fecbc2f44a60b6b3672fb83572b1" fieldRef="qml_99271d646c4c41edbcbfd21559bdce6c">
+                        <possibleValues xmi:type="ad:Expression" xmi:id="_605f5f4cd3514c0fb20055acb1529002">
+                          <clause xmi:type="ad:StringLiteralClause" xmi:id="_47acd393bd4b401ea9128ebf6871bc02" value="1" />
+                        </possibleValues>
+                      </fields>
+                      <fields xmi:type="ad:ValueField" xmi:id="_61dedc56d5a14afc875b6d8df4f170a2" fieldRef="qml_73be68e8bebf40fa946ac9f4e4283f36">
+                        <possibleValues xmi:type="ad:Expression" xmi:id="_b6ea9296a1204b62afa0bb38c852bca1">
+                          <clause xmi:type="ad:StringLiteralClause" xmi:id="_bf3e6e5c070e40578f38a50b348dd69d" value="LOGOUT_TC" />
+                        </possibleValues>
+                      </fields>
+                      <type xmi:type="ad:CustomTypeRef" xmi:id="_fa281d0d820a4f30ba2ff0168d40b8c9" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+                    </clause>
+                  </possibleValues>
+                  <type xmi:type="ad:CustomTypeRef" xmi:id="_9d798a31e5494442ae9cb8c0ac7f3e4b" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+                </clause>
+              </inputArgs>
+            </clause>
+          </condition>
+        </preCondition>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_c7edcf291a2e48d092b58eb91a9ddcef" methodRef="qml_ec5f59a921eb4ddfbf1100c970f88626_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_f1cbde0f7a294b369a2f801e4f969145">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_a62c82fbf3db4052b532b8c76785b7f2" value="Verify No errors can be observed at the SUT" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_f53e1ee6ac8e4c96a77ca045d2559a9d">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_1669289b0a8a4b3dadad0fb85f2e2dc0" qmlId="qml_19b2f2832738418980e8365dc9be2d8b">
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_7a0e03d9d33e4ec1991789af33503e8a" idRef="qml_ec5f59a921eb4ddfbf1100c970f88626" />
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+    </nodes>
+    <nodes xmi:type="ad:FinalNode" xmi:id="_a48cb2518c2844ada896a0b7a91bb0ae" name="Return Node 3" controlFlowsIn=" _ac18805b44dc4d93a7c34727c9428d39" />
+    <nodes xmi:type="ad:VariableDataObject" xmi:id="_aba3d100ed4243c2a2882d96b740e71d" name="VarCurrent Tests Current Tests (only required to get original tests)" qmlId="qml_2cb0311f21e54721a2b2be63c2f428e2">
+      <type xmi:type="ad:CustomTypeRef" xmi:id="_bdc227403e5d47298e2f66262247e608" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+      <fields xmi:type="ad:VariableField" xmi:id="_d6c25343e20b47b6b63e2ac765296d69" fieldRef="qml_99271d646c4c41edbcbfd21559bdce6c" />
+      <fields xmi:type="ad:VariableField" xmi:id="_c04119bbc52b4d7da8dd408178ff5f1b" fieldRef="qml_73be68e8bebf40fa946ac9f4e4283f36" />
+    </nodes>
+    <nodes xmi:type="ad:BlockNode" xmi:id="_9cc0b3ba376e480ba49a6cd3d65c0fbd" name="Block Node" controlFlowsIn="_9d25aa90582a48cb9df2d16150630b1b" />
+    <nodes xmi:type="ad:DecisionNode" xmi:id="_1c5435550db34c2a8178513e0714c493" name="Variation Point 1" controlFlowsIn=" _03d74df5b54047dd85f53aa2325dfcc2" caseControlFlowsOut=" _13c3f027246c4f16a28b15e38e2e4c22 _87d123c75cd04d1c97e8a31883715434" elseControlFlowOut="_9d25aa90582a48cb9df2d16150630b1b">
+      <condition xmi:type="ad:Expression" xmi:id="_eb382b939067403e8742cd8a074f3ef5">
+        <clause xmi:type="ad:FunctionCallClause" xmi:id="_1ecb6798149d4e9f8118722d8dd27cad" methodRef="qml_99271d646c4c41edbcbfd21559bdce6c">
+          <inputArgs xmi:type="ad:Expression" xmi:id="_0c519661315f418d95cc1002c7857125">
+            <clause xmi:type="ad:DataObjectAccessClause" xmi:id="_a7bfd0325baf4fc9963dc41bdb1cf877" objectRef="qml_2bc081f4ec4a4d8a94c1acee2c376dc7" />
+          </inputArgs>
+        </clause>
+      </condition>
+    </nodes>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_79e4489b8b3d45cd90699466d2c3480a" name="Setup Current Tests (only required to get original tests)" controlFlowsOut=" _c6bf1ce5cab24391b9a7e5e1dedf6cef" controlFlowsIn=" _a557caf976ad4b41a16958f4e53e6ac2">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_64e17eaf57dd4ddea3c94dfb884be72d" methodRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_bdbe513ca8f74e76814ff6b33751ce67">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_ad20093665b14e84b9b0b53ccac995c8" value="Current Tests_Variation Injections" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_7531909e64a34d209f350a9d5bed11da">
+          <clause xmi:type="ad:InlineValueClause" xmi:id="_02a10511d9d5444c8bb4c27263260df7" qmlId="qml_bd75d17263bd4e3fa75b65ed27dfaedf" valueKind="List">
+            <possibleValues xmi:type="ad:Expression" xmi:id="_2333dc1159564bddaa89b5fb9f482c35">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="_b76d1dfb11714144a1e324dc7709e064" name="Testcase 3" qmlId="qml_02784178e6d84e3c92a3061a321f8abd">
+                <fields xmi:type="ad:ValueField" xmi:id="_c93bbdee1711445981d0f04ad8cf5f6b" fieldRef="qml_99271d646c4c41edbcbfd21559bdce6c">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_6cccd4e51b9446228e25c796f24b9358">
+                    <clause xmi:id="_c8d076a1515a4c278e5ce511c93ff20d" xmi:type="ad:StringLiteralClause" value="1" />
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="_4e4420b515bf406fa3635f4ba5324485" fieldRef="qml_73be68e8bebf40fa946ac9f4e4283f36">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_812d99af012f4780897528ad5185aaac">
+                    <clause xmi:id="_c395e8bb0c4941dd873447e4449fbf5e" xmi:type="ad:StringLiteralClause" value="LOGOUT_TC" />
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="_a2aba7ceea6f42b09073bf6994f951f9" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+              </clause>
+            </possibleValues>
+            <possibleValues xmi:type="ad:Expression" xmi:id="_4a9587027f6240f59fd3733bb6b8dc7c">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="_7d347b731a4e470ea49153bcf575eeb6" name="Testcase 2" qmlId="qml_27602dcb3352436894fc02abf28615a6">
+                <fields xmi:type="ad:ValueField" xmi:id="_682da33429de4e868ea902ec4a19ec06" fieldRef="qml_99271d646c4c41edbcbfd21559bdce6c">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_b404d4616fe9412a98b96d283902dc6a">
+                    <clause xmi:id="_19fecb0f213043188c50b33106b5a562" xmi:type="ad:StringLiteralClause" value="screen" />
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="_367516aa599a438fa3777897d2751d54" fieldRef="qml_73be68e8bebf40fa946ac9f4e4283f36">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_6be35fadd2f44b1e83417580f654752d">
+                    <clause xmi:id="_dcb8566fbe5d41b68aecb0e2531a1b64" xmi:type="ad:StringLiteralClause" value="INVALIDLOGIN_TC" />
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="_f83694af64f4436cb8e1e3865f1f0370" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+              </clause>
+            </possibleValues>
+            <possibleValues xmi:type="ad:Expression" xmi:id="_09c5a35501254d62bc20998724ff2296">
+              <clause xmi:type="ad:InlineValueClause" xmi:id="_b13e38b8a0b2462b82fe2a89de7856a4" name="Testcase 1" qmlId="qml_b7f3ca680691414883c9d1ec35af68b0">
+                <fields xmi:type="ad:ValueField" xmi:id="_30b6eaab36dc42e8a3a4c73d28c76beb" fieldRef="qml_99271d646c4c41edbcbfd21559bdce6c">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_0ec8c4904c224caeacf07b2e77409862">
+                    <clause xmi:id="_8105791168fa4cd982aef69f396df69b" xmi:type="ad:StringLiteralClause" value="screen" />
+                  </possibleValues>
+                </fields>
+                <fields xmi:type="ad:ValueField" xmi:id="_b137e3381ebf481e986de83787a519e6" fieldRef="qml_73be68e8bebf40fa946ac9f4e4283f36">
+                  <possibleValues xmi:type="ad:Expression" xmi:id="_4a766ae17d2a43ffa0be1fa92bc64e67">
+                    <clause xmi:id="_00735514a8c5440cac3262f36b266796" xmi:type="ad:StringLiteralClause" value="INVALIDLOGIN_TC [2]" />
+                  </possibleValues>
+                </fields>
+                <type xmi:type="ad:CustomTypeRef" xmi:id="_83f229e3b0fa43b1981d5f0ce6d6fa6e" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+              </clause>
+            </possibleValues>
+            <type xmi:type="ad:CustomTypeRef" xmi:id="_28b1315735734b8abc3bf7d2cd244986" idRef="qml_8a0cb23fa02f4dd0bed8f48ca0253ccf" />
+          </clause>
+        </inputArgs>
+        <outputLocation xmi:type="ad:DataObjectAccessClause" xmi:id="_4756082566504773947be15e98878bae" objectRef="qml_2cb0311f21e54721a2b2be63c2f428e2" />
+        <implicitResult xmi:type="ad:ImplicitVariable" xmi:id="_6bcfc6d19f6946fab09339f8b44a47f3" qmlId="qml_2bc081f4ec4a4d8a94c1acee2c376dc7" />
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_9fae1607dd3b4990a1922f4d93329477" methodRef="name_tag">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_5284e334c8484154b061d0533bee1411">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_559eaacb78814a3091319aae658f88ba" methodRef="qml_73be68e8bebf40fa946ac9f4e4283f36">
+            <inputArgs xmi:type="ad:Expression" xmi:id="_7bce0ee3b44d4ae481a5c836f0105c4f">
+              <clause xmi:type="ad:DataObjectAccessClause" xmi:id="_eaba5d17573c40aaae9aeac43affeb2e" objectRef="qml_2bc081f4ec4a4d8a94c1acee2c376dc7" />
+            </inputArgs>
+          </clause>
+        </inputArgs>
+      </actionInvocations>
+    </nodes>
+    <nodes xmi:type="ad:ActivityNode" xmi:id="_d7f8bffbdadd4c4fb5a2c6ce46a99355" name="Click LOG IN button in the LogIn screen" controlFlowsOut=" _68c024486c7743b2bce5ed2718d054ce" controlFlowsIn=" _13c3f027246c4f16a28b15e38e2e4c22 ">
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_c9c9e79ed5d8459b94c07b7a91d380d0" methodRef="qml_012a1d8b300243819a92bc5efc92ad9f_Custom_Input_qml_0a9e5320058944e49e808db018c2d9d6">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_15b41a95f5c44d6494976a2efa63dd79">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_e357afab372d43caada59cfae0bced9c" value="Click LOG IN button in the LogIn screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_56526da6b3da4ae5aecbef0b89ca2e90">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_684710ac20344474a8d0a8b24b673530" methodRef="qml_012a1d8b300243819a92bc5efc92ad9f_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+      <actionInvocations xmi:type="ad:ActionInvocation" xmi:id="_7052ceb9030044aaac1d7e2b9862ff23" methodRef="qml_bd8e626e64734728b3d5b11953bd6795_Custom_Verification_qml_a558ed9ddeea47f3b339fa63b273b068">
+        <inputArgs xmi:type="ad:Expression" xmi:id="_5350bc6152474b6eb8e39608ed160e59">
+          <clause xmi:type="ad:StringLiteralClause" xmi:id="_5eb3349b2a3b4b84869c76820dbf0e50" value="Verify Application displays LogIn screen" />
+        </inputArgs>
+        <inputArgs xmi:type="ad:Expression" xmi:id="_064322046d744246ba3e463c6c113b2a">
+          <clause xmi:type="ad:FunctionCallClause" xmi:id="_9951b44848ce4701838dd42083bf1624" methodRef="qml_bd8e626e64734728b3d5b11953bd6795_Dont_Care_Value" />
+        </inputArgs>
+      </actionInvocations>
+    </nodes>
+    <nodes xmi:type="ad:InitialNode" xmi:id="_71b56d3e06944d63a063993559f1a164" name="START" controlFlowsOut=" _a557caf976ad4b41a16958f4e53e6ac2" />
+  </ad:ActivityDiagram>
+  <notation:Diagram xmi:id="_b92aa5d0df854410a8d270caf3f6e495" type="ConformiqActivityChart" element="_fa670de37cf54a93ae38bf1078c42f9f" name="Current Tests.ad" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_9d0780820f914abab654b9e8c4d2220d" />
+  </notation:Diagram>
+</xmi:XMI>
+
